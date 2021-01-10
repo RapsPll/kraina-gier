@@ -16,60 +16,94 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/navigationMobile.css">
     <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/hamburgerMenu.css">
     <script defer src="js/main.js"></script>
     <title>Kraina Gier</title>
 </head>
 
 <body>
     <main class="main">
+        <nav class="navigation">
+            <h3 class="navigation__title">KrainaGier.pl</h3>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Kącik Gier</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Warsztaty</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Mini barek</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Sklepik</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Wspólne tworzenie gier</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Kontakty</a>
+                </li>
+            </ul>
+            <div class="socialIcons">
+                <div class="icon">
+                    <a class="socialIcons__link" href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="icon">
+                    <a class="socialIcons__link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </nav>
         <header class="header">
             <div class="header__title">
                 <h1 class="title__text">Kraina Gier</h1>
             </div>
-            <div class="hamburgerBox">
-                <div class="hamburgerMenu"></div>
-            </div>
 
-            <nav class="header__navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Kącik Gier</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Warsztaty</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Mini barek</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">sklepik</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Wspólne tworzenie gier</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" href="#">Kontakt</a>
-                    </li>
-                </ul>
-                <div class="socialIcons">
-                    <div class="icon">
-                        <a class="socialIcons__link" href="#"><i class="fab fa-facebook"></i></a>
-                    </div>
-                    <div class="icon">
-                        <a class="socialIcons__link" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-
-            </nav>
         </header>
+        <div class="hamburgerBox">
+            <div class="hamburgerMenu"></div>
+        </div>
+
+        <nav class="header__navigationMobile">
+            <ul class="navigationMobile__list">
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">Kącik Gier</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">Warsztaty</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">Mini barek</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">sklepik</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">Wspólne tworzenie gier</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__link" href="#">Kontakt</a>
+                </li>
+            </ul>
+            <div class="socialIconsMobile">
+                <div class="iconMobile">
+                    <a class="socialIconsMobile__link" href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="iconMobile">
+                    <a class="socialIconsMobile__link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </nav>
         <section class="section">
             <div class="slider">
                 <div class="slider__item">
                     <img class="slider__image" src="image/dlaczego-warto-grac-w-gry-planszowe-1500x1001.jpg" alt="">
                 </div>
                 <div class="slider__item">
-                    <img class="slider__image" src="image/z25796856V,Lukasz--Wookie--Wozniak--pierwszy-z-prawej---fanat.jpg" alt="">
+                    <img class="slider__image"
+                        src="image/z25796856V,Lukasz--Wookie--Wozniak--pierwszy-z-prawej---fanat.jpg" alt="">
                 </div>
                 <div class="slider__item">
                     <img class="slider__image" src="image/gry-planszowe-dla-rodziny.jpg" alt="">
