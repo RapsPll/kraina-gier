@@ -1,3 +1,28 @@
 .whyUs__article {
-    
+display: flex;
+transition: .3s linear;
+}
+
+.whyUs__articleText {
+    width: 400px;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.whyUs__title {
+padding-bottom: 10px;
+border-bottom: 1px solid black;
+}
+
+.whyUs__paragraph {
+    line-height: 25px;
+}
+
+.whyUs__image {
+    margin: 30px;
+}
+
+.whyUs__imagePhoto {
+    width: 600px;
+    height: 400px;
 }
