@@ -1,0 +1,82 @@
+.header__navigationMobile {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: -350px;
+    width: 300px;
+    height: 600px;
+    background-image: url(/image/chess-2951256_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: .3s linear;
+}
+
+.header__navigationMobile--active {
+    transform: translateX(-350px);
+    transition: .3s linear;
+}
+
+.header__navigationMobile::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 30px;
+}
+
+.navigationMobile__list {
+    z-index: 1;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    border-bottom: 3px dashed #fff;
+}
+
+.navigationMobile__item {
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+
+}
+
+
+.navigationMobile__link {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.socialIconsMobile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    position: relative;
+}
+
+.socialIconsMobile__link {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.socialIconsMobile .fab.fa-instagram,
+.socialIconsMobile .fab.fa-facebook {
+    font-size: 45px;
+    width: 30px;
+    height: 30px;
+}
