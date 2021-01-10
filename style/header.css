@@ -1,8 +1,11 @@
 .header {
+    z-index: -1;
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-image: url(/image/dice-1264058_1920.jpg);
     background-position: center;
     position: relative;
@@ -15,17 +18,26 @@
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
     background-color: rgba(0, 0, 0, 0.575);
 }
 
 .header__title {
-font-family: 'Yeon Sung', cursive;
+    font-family: 'Yeon Sung', cursive;
     font-size: 60px;
     color: #fff;
-    z-index: 1;
     letter-spacing: 12px;
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
+}
+
+.title__text {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.header__subtitle {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
 }
 
