@@ -1,0 +1,40 @@
+.hamburgerBox {
+    display: none;
+    z-index: 1;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.hamburgerMenu {
+    z-index: 1;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.hamburgerMenu::before,
+.hamburgerMenu::after {
+    content: '';
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 12.5px
+}
+
+.hamburgerMenu::after {
+    top: 25px;
+}
+
+.hamburgerBox--active{
+    transform: translateX(-320px);
+    transition: .3s linear;
+}

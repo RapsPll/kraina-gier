@@ -26,7 +26,6 @@
 
 .slider__arrowLeft,
 .slider__arrowRight {
-    z-index: 1;
     position: absolute;
     top: 50px;
     font-size: 25px;
