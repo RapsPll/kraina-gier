@@ -1,7 +1,6 @@
 .navigation {
-    z-index: 1;
     width: 100%;
-    height: 100px;
+    height: 70px;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.178);
     display: flex;
@@ -18,14 +17,33 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     list-style: none;
+    padding-left: 5px;
 }
 
 .navigation__item {
     border-right: 1px dotted #fff;
 }
 
+.navigation__item:last-child {
+    border-right: none;
+}
+
 .navigation__link {
     text-decoration: none;
     color: #fff;
     padding: 0px 10px;
+}
+
+.socialIcons {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    display: flex;
+}
+
+.socialIcons__link {
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
 }
