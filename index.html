@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style/slider.css">
     <link rel="stylesheet" href="style/hamburgerMenu.css">
     <link rel="stylesheet" href="style/whyUs.css">
+    <link rel="stylesheet" href="style/bar.css">
     <link rel="stylesheet" href="style/workshops.css">
     <script defer src="js/main.js"></script>
     <title>Kraina Gier</title>
@@ -37,7 +38,7 @@
                     <a href="#workshops" class="navigation__link">Warsztaty</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#" class="navigation__link">Mini barek</a>
+                    <a href="#bar" class="navigation__link">Mini barek</a>
                 </li>
                 <li class="navigation__item">
                     <a href="#" class="navigation__link">Sklepik</a>
@@ -177,9 +178,9 @@
             </div> -->
         </section>
         <section class="section">
-            <article id="workshops" class="workshops">
+            <div id="workshops" class="workshops">
                 <h2 class="workshops__title">Warsztaty</h2>
-                <div class="cos">
+                <article class="workshops__article">
                     <div class="workshops__text">
                         <p class="workshops__paragraph">Oglądałeś z niedowierzaniem jak w parę sekund z zamkniętymi
                             oczami
@@ -193,7 +194,7 @@
                         <p class="workshops__paragraph">Zajecia dla was poprowadzą: </p>
                         <p class="workshops__paragraph"> <span class="workshops__paragraphSpan">Krzysztof Bober</span> -
                             Mistrz Polski w speedCubingu 2019 </p>
-                            <p>oraz</p>
+                        <p>oraz</p>
                         <p class="workshops__paragraph"> <span class="workshops__paragraphSpan">Kamil Dragun</span> -
                             Mistrz Polski w Szachach Indywidualnych 2019</p>
                     </div>
@@ -206,10 +207,25 @@
                             <img class="workshops__imagePhoto" src="image/kamil-dragun.jpg" alt="Kamil Dragun">
                         </div>
                     </div>
-                </div>
-            </article>
+                </article>
+            </div>
         </section>
-        <section class="section">Mini barek</section>
+        <section class="section">
+            <div id="bar" class="bar">
+                <h2 class="bar__title">Mini barek</h2>
+                <article class="bar__article">
+                    <div class="bar__image">
+                        <img class="bar__photo" src="/image/3.jpg" alt="">
+                    </div>
+                    <div class="bar__offer">
+                    <p class="bar__paragraph">Gdybyście się zatracili w graniu i zgłodnieli w trkacie jakiejś ciekawej rozgrywki to posiadamy
+                        także
+                        mini barek a w nim możecie zakupić kawe, herbate, przekąski oraz napoje również te z % </p>
+                        <button class="bar__menu">Menu</button>
+                    </div>
+                    </article>
+            </div>
+        </section>
         <section class="section">Sklepik</section>
         <section class="section">Wspólne tworzenie gier</section>
         <footer></footer>
