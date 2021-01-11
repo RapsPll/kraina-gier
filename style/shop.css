@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 18px;
+    padding-bottom: 50px;
 }
 
 .shop__photo {

@@ -4,9 +4,9 @@
 }
 
 .whyUs__article {
-display: flex;
-justify-content: center;
-transition: .3s linear;
+    display: flex;
+    justify-content: center;
+    transition: .3s linear;
 }
 
 .whyUs__articleText {
@@ -16,8 +16,8 @@ transition: .3s linear;
 }
 
 .whyUs__title {
-padding-bottom: 10px;
-border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 
 .whyUs__paragraph {

@@ -14,6 +14,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    padding: 80px 0px;
 }
 
 .workshops::after {
@@ -35,7 +36,6 @@
     font-size: 40px;
     padding-top: 20px;
     margin-top: 0;
-
 }
 
 .workshops__title::after {
@@ -54,6 +54,7 @@
     position: relative;
     z-index: 1;
     color: #fff;
+    font-size: 20px;
     width: 40%;
     padding-left: 60px;
     padding-bottom: 30px;
@@ -66,15 +67,14 @@
 .workshops__image {
     position: relative;
     z-index: 1;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     gap: 15px;
-    width: 40%;
+    /* width: 40%; */
 }
 
 .workshops__imagePhoto {
-    width: 250px;
-    height: 275px;
+    width: 300px;
+    height: 350px;
     padding-bottom: 30px;
     position: relative;
 }
