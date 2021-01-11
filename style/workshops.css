@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.cos {
+.workshops__article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,7 +61,7 @@
     font-weight: bolder;
 }
 
-.workshops__image{
+.workshops__image {
     position: relative;
     z-index: 1;
     display: grid;
@@ -70,7 +70,7 @@
     width: 40%;
 }
 
-.workshops__imagePhoto{
+.workshops__imagePhoto {
     width: 250px;
     height: 275px;
     padding-bottom: 30px;
@@ -81,22 +81,20 @@
 .workshops__imageKrzysztof {
     position: relative;
 }
+
 .workshops__imageKamil::after {
     content: "Kamil Dragun";
-    position:absolute;
+    position: absolute;
     z-index: 1;
     bottom: 0;
     left: 0;
     color: #fff;
-
-    
 }
+
 .workshops__imageKrzysztof::after {
     content: "Krzysztof Bober";
     color: #fff;
     position: absolute;
     left: 0;
     bottom: 0;
-    
 }
-
