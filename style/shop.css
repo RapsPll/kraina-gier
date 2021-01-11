@@ -1,0 +1,33 @@
+.shop__title {
+    position: relative;
+    font-size: 40px;
+}
+
+.shop__title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 2px;
+    background-color: #000;
+}
+
+.shop__article {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.shop__photo {
+    width: 400px;
+    height: 300px;
+}
+
+.shop__text {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
