@@ -1,0 +1,61 @@
+.createdGames {
+    position: relative;
+    background-image: url(/image/hammer-28636.svg);
+    height: 40vh;
+}
+
+.createdGames::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.createdGames__title {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.createdGames__title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 550px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.createdGames__artcile {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.createdGames__paragraph {
+    color: #fff;
+    font-size: 20px;
+}
+
+.createdGames__paragraph-link {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.createdGames__photo {
+    width: 300px;
+
+}
