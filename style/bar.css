@@ -1,7 +1,6 @@
 .bar {
     z-index: 1;
     position: relative;
-
 }
 
 .bar::after {
@@ -18,13 +17,6 @@
     filter: blur(10px);
 }
 
-.bar__title {
-    position: relative;
-    color: #fff;
-    font-size: 40px;
-    margin-top: 0px;
-    padding-top: 20px;
-}
 
 .bar__title::after {
     content: "";
@@ -51,10 +43,10 @@
 
 .bar__paragraph {
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 0 20px; 
     line-height: 20px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .bar__menu {
