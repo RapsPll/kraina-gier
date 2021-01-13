@@ -1,21 +1,28 @@
 .navigation {
+    /* display: none; */
     z-index: 99;
     width: 100%;
-    height: 70px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navigation__title {
     padding: 10px;
-    font-size: 30px;
+    font-size: 1.9rem;
+    margin: 0;
 }
 
 .navigation__titleLink {
     color: #fff;
     text-decoration: none;
+}
+
+.navigation__titleAndList {
+    display: flex;
+    align-items: center;
 }
 
 .navigation__list {
@@ -26,7 +33,8 @@
 }
 
 .navigation__item {
-    border-right: 1px dotted #fff;
+    border-right: 1px solid #fff;
+    text-align: center;
 }
 
 .navigation__item:last-child {
@@ -37,18 +45,19 @@
     text-decoration: none;
     color: #fff;
     padding: 0px 10px;
+    font-size: 1rem;
 }
 
 .socialIcons {
-    position: absolute;
-    right: 30px;
-    top: 20px;
     display: flex;
+    align-items: center;
+    margin-right: 30px;
 }
 
 .socialIcons__link {
     position: relative;
     color: #fff;
     padding: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
+

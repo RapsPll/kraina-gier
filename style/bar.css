@@ -24,7 +24,7 @@
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 250px;
+    width: 30%;
     height: 2px;
     background-color: #fff;
 }
@@ -39,13 +39,25 @@
 .bar__image {
     position: relative;
     z-index: 1;
+    flex-basis: auto;
+    width: 50vw;
+    height: 30vw;
+}
+
+.bar__photo {
+    width: 100%;
+    height: 100%;
+}
+
+.bar__offer {
+    flex-basis: 30%;
 }
 
 .bar__paragraph {
     color: #fff;
     letter-spacing: 1px;
-    padding: 0 20px; 
-    line-height: 20px;
+    padding: 0 20px;
+    line-height: 1.2rem;
     font-size: 1.2rem;
 }
 
@@ -53,7 +65,7 @@
     border: 1px solid rgb(94, 94, 94);
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.1rem;
     background-color: chocolate;
     color: #fff;
     font-weight: bolder;

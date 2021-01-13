@@ -25,3 +25,9 @@ html {
     margin-top: 0px;
     padding-top: 20px;
 }
+
+@media (min-width: 1900px) {
+    html {
+        font-size: 30px;
+    }
+}

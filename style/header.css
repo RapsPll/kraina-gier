@@ -24,7 +24,7 @@
 
 .header__title {
     font-family: 'Yeon Sung', cursive;
-    font-size: 60px;
+    font-size: 3.8rem;
     color: #fff;
     letter-spacing: 12px;
 }
@@ -37,7 +37,9 @@
 
 .header__subtitle {
     position: relative;
-    font-size: 25px;
+    font-size: 1.6rem;
     color: #fff;
 }
+
+
 

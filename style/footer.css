@@ -5,12 +5,13 @@
     color: #fff;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 .footerTop__description {
     flex-basis: 50%;
-    font-size: 1.2rem;
-    line-height: 25px;
+    line-height: 1.6rem;
     letter-spacing: 1px;
     text-align: justify;
     padding: 30px;
@@ -19,6 +20,7 @@
 
 .footerTop__contact {
     flex-basis: 50%;
+    flex-wrap: wrap;
     position: relative;
     padding: 30px;
     padding-left: 50px;
@@ -30,11 +32,22 @@
     text-decoration: none;
 }
 
+.footerTop__map {
+    width: 40vw;
+    height: 30vw;
+    padding: 5px;
+}
+
+.footerTop__iframe {
+    width: 100%;
+    height: 100%;
+}
+
 .footer__bottom {
     background-color: #303030;
     text-align: center;
     padding: 20px 0px;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .footer__bottom p {
