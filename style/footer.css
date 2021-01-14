@@ -6,35 +6,39 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+.footerTop__description,
+.footerTop__contact,
+.footerTop__openingHours {
+    padding: 30px;
+    flex-basis: 25%;
+}
+
+.footerTop__openingHours {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTop__openingHoursParagraph {
+    margin: 5px 0px;
 }
 
 .footerTop__description {
-    flex-basis: 50%;
     line-height: 1.6rem;
     letter-spacing: 1px;
     text-align: justify;
-    padding: 30px;
-    padding-right: 50px;
-}
-
-.footerTop__contact {
-    flex-basis: 50%;
-    flex-wrap: wrap;
-    position: relative;
-    padding: 30px;
-    padding-left: 50px;
-    border-left: 3px solid #fff;
 }
 
 .fontColor {
-    color: #C87B44;
+    color: chocolate;
     text-decoration: none;
 }
 
 .footerTop__map {
-    width: 40vw;
-    height: 30vw;
+    width: 30vw;
+    height: 20vw;
     padding: 5px;
 }
 
@@ -54,4 +58,29 @@
     margin: 0;
     padding: 10px 0px;
     color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .footerTop__description,
+    .footerTop__openingHours {
+        flex-basis: 50%;
+    } 
+
+    /* .footerTop__description {
+        border-right: 1px solid #fff;
+    } */
+    .footerTop__contact {
+        flex-basis: 100%;
+
+    }
+}
+
+@media (max-width: 540px) {
+    .footerTop__description,
+    .footerTop__openingHours {
+        flex-basis: 100%;
+    } 
+    .footerTop__map {
+        display: none;
+    }
 }

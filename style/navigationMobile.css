@@ -1,7 +1,7 @@
 .header__navigationMobile {
     display: none;
-    z-index: 1;
-    position: absolute;
+    z-index: 99;
+    position: fixed;
     top: 0px;
     right: -350px;
     width: 300px;
@@ -54,8 +54,9 @@
 
 
 .navigationMobile__link {
-    color: #fff;
+    color: chocolate;
     text-decoration: none;
+    font-weight: bolder;
     width: 100%;
     padding: 10px;
 }
@@ -79,4 +80,10 @@
     font-size: 45px;
     width: 30px;
     height: 30px;
+}
+
+@media (max-width: 1100px) {
+    .header__navigationMobile {
+        display: block;
+    }
 }

@@ -3,7 +3,6 @@
     background-image: url(/image/king-1716907_1920.jpg);
     background-size: cover;
     position: relative;
-    display: column;
     width: 100%;
 }
 
@@ -13,7 +12,7 @@
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 
 .workshops::after {
@@ -34,7 +33,7 @@
     transform: translateX(-50%);
     width: 30%;
     height: 2px;
-    background-color: #fff;
+    background-color: chocolate;
 }
 
 
@@ -43,7 +42,12 @@
     z-index: 1;
     color: #fff;
     font-size: 1rem;
-    width: 50%;
+    flex-basis: 50%;
+
+}
+
+.workshops__paragraph {
+    margin: 10px 0px;
 }
 
 .workshops__paragraphSpan {
@@ -54,6 +58,7 @@
     position: relative;
     z-index: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     gap: 15px;
     flex-basis: 50%;
@@ -61,8 +66,8 @@
 
 .workshops__image {
     position: relative;
-    width: 15vw;
-    height: 20vw;
+    width: 12vw;
+    height: 17vw;
 }
 
 .workshops__imagePhoto {
@@ -72,8 +77,8 @@
     position: relative;
 }
 
-.workshops__image--Krzysztof{
-    width: 18vw;
+.workshops__image--Krzysztof {
+    width: 15vw;
 }
 
 .workshops__image--Kamil::after,
@@ -88,4 +93,53 @@
 
 .workshops__image--Krzysztof::after {
     content: "Krzysztof Bober";
+}
+
+@media (max-width: 850px) {
+    .workshops__text {
+        flex-basis: 100%;
+
+    }
+
+    .workshops__images {
+        flex-basis: 100%;
+        justify-content: center;
+
+    }
+
+    .workshops__image {
+        width: 15vw;
+        height: 22vw;
+    }
+
+    .workshops__image--Krzysztof {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .workshops__images {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .workshops__image {
+        width: 45vw;
+        height: 52vw;
+    }
+
+    .workshops__image--Krzysztof {
+        width: 50vw;
+    }
+
+    .workshops__image--Kamil::after,
+    .workshops__image--Krzysztof::after {
+        content: "Kamil Dragun";
+        position: absolute;
+        z-index: 1;
+        bottom: 0px;
+        left: 0;
+        color: #fff;
+    }
 }

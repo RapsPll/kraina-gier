@@ -8,6 +8,7 @@
     align-items: center;
     background-image: url(/image/dice-1264058_1920.jpg);
     background-position: center;
+    background-size: cover;
     position: relative;
 }
 
@@ -27,6 +28,7 @@
     font-size: 3.8rem;
     color: #fff;
     letter-spacing: 12px;
+    text-align: center;
 }
 
 .title__text {
@@ -39,7 +41,17 @@
     position: relative;
     font-size: 1.6rem;
     color: #fff;
+    padding: 0 10px;
 }
 
+@media (max-width: 450px) {
+    .header__title {
+        font-size: 3rem;
+    }
+
+    .header__subtitle {
+        font-size: 1.3rem;
+    }
+}
 
 

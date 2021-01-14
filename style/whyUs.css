@@ -13,6 +13,9 @@
 .whyUs__articleText {
     flex-basis: 40%;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .whyUs__articleText--special {
@@ -21,22 +24,34 @@
 
 
 .whyUs__title {
-    font-size: 1.2rem;
+    color: chocolate;
+    font-size: 1.3rem;
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    font-weight: bolder;
+    border-bottom: 1px solid chocolate;
 }
 
 .whyUs__paragraph {
     font-size: 1rem;
+    margin: 0;
 }
 
 .whyUs__image {
-    width: 35vw;
-    height: 25vw;
+    width: 30vw;
+    height: 20vw;
     margin: 30px;
 }
 
 .whyUs__imagePhoto {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .whyUs {
+        width: 100%;
+    }
+    .whyUs__articleText {
+        flex-basis: 50%;
+    }
 }

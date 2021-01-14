@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
 
@@ -15,19 +15,23 @@ html {
     font-size: 16px;
 }
 
+.main{
+    overflow-x: hidden;
+}
+
 .title {
     position: relative;
     z-index: 1;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: chocolate;
     font-size: 2.5rem;
     margin-top: 0px;
     padding-top: 20px;
 }
 
-@media (min-width: 1900px) {
+/* @media (min-width: 1900px) {
     html {
-        font-size: 30px;
+        font-size: 20px;
     }
-}
+} */

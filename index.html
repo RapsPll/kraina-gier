@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Yeon+Sung&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/global.css">
   <link rel="stylesheet" href="style/header.css">
   <link rel="stylesheet" href="style/navigation.css">
@@ -78,22 +80,23 @@
     <nav class="header__navigationMobile">
       <ul class="navigationMobile__list">
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">Kącik Gier</a>
+          <a class="navigationMobile__link" href="#whyUs">O nas</a>
         </li>
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">Warsztaty</a>
+          <a class="navigationMobile__link" href="#workshops">Warsztaty</a>
         </li>
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">Mini barek</a>
+          <a class="navigationMobile__link" href="#createdGames">Wspólne tworzenie gier</a>
         </li>
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">sklepik</a>
+          <a class="navigationMobile__link" href="#bar">Mini bar</a>
         </li>
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">Wspólne tworzenie gier</a>
+          <a class="navigationMobile__link" href="#shop">sklep</a>
         </li>
+       
         <li class="navigationMobile__item">
-          <a class="navigationMobile__link" href="#">Kontakt</a>
+          <a class="navigationMobile__link" href="#contact">Kontakt</a>
         </li>
       </ul>
       <div class="socialIconsMobile">
@@ -200,7 +203,7 @@
             <p class="workshops__paragraph">Zajecia dla was poprowadzą: </p>
             <p class="workshops__paragraph"> <span class="workshops__paragraphSpan">Krzysztof Bober</span> -
               Mistrz Polski w speedCubingu 2019 </p>
-            <p>oraz</p>
+            <p class="workshops__paragraph">oraz</p>
             <p class="workshops__paragraph"> <span class="workshops__paragraphSpan">Kamil Dragun</span> -
               Mistrz Polski w Szachach Indywidualnych 2019</p>
           </div>
@@ -235,7 +238,7 @@
     </section>
     <section class="section">
       <div id="bar" class="bar">
-        <h2 class="bar__title title">Mini barek</h2>
+        <h2 class="bar__title title">Mini bar</h2>
         <article class="bar__article">
           <div class="bar__image">
             <img class="bar__photo" src="/image/3.jpg" alt="">
@@ -258,8 +261,8 @@
             <img class="shop__photo" src="/image/graal2edited.jpg" alt="">
           </div>
           <div class="shop__text">
-            <p class="shop__paragraph">Znajdziecie u nas ogromny sklep z grami. Znajdziecie tu wszyzstko, od
-              zwykłych kart do gier po nabardziej rozbudowane fabularne na całe dnie.</p>
+            <p class="shop__paragraph">Wewnątrz znajduje się ogromny sklep z grami. Znajdziecie tu wszyzstko, od
+              zwykłych kart do gier po te nabardziej rozbudowane fabularne na całe dnie.</p>
             <p class="shop__paragraph">A o brak towaru nie musicie się martwić.</p>
           </div>
           <div class="shop__image">
@@ -273,12 +276,25 @@
     <footer id="contact" class="footer">
       <div class="footer__top">
         <div class="footerTop__description">
-          <h4>Kraina Gier</h4>
-          <p>Firma rozpoczęła działalnosć w 2015 roku. Przez pierwsze 5 lat zajmowaliśmy się tylko sprzedażą
+          <h4 class="footerTop__descriptionTitle">Kraina Gier</h4>
+          <p class="footerTop__descriptionparagraph">Firma rozpoczęła działalnosć w 2015 roku. Przez pierwsze 5 lat
+            zajmowaliśmy się tylko sprzedażą
             detaliczną gier planszowych. W styczniu 2021 roku rozszerzemy naszą działalność o lokal, w
-            którym można testować gry przed zakupem oraz spędzać przyjemnie czas w gornie rodziny i
-            przyjaciół. W dobie smart chcemy przepomnieć ludziom, że gry bez prądu są równie ekscytujące co
+            którym można testować gry przed zakupem oraz spędzać przyjemnie czas w gronie rodziny i
+            przyjaciół. W dobie smart chcemy przypomnieć ludziom, że gry bez prądu są równie ekscytujące co
             gry na komputery, konsole czy telefony.</p>
+        </div>
+        <div class="footerTop__openingHours">
+          <h4 class="footerTop__openingHoursTitle">
+            Godziny Otwarcia
+          </h4>
+          <p class="footerTop__openingHoursParagraph">Poniedziałek: Zamknięte</p>
+          <p class="footerTop__openingHoursParagraph">Wtorek: 13 - 24</p>
+          <p class="footerTop__openingHoursParagraph">Środa: 13 - 24</p>
+          <p class="footerTop__openingHoursParagraph">Czwartek: 13 - 24</p>
+          <p class="footerTop__openingHoursParagraph">Piątek: 13 - do ostatniego klienta</p>
+          <p class="footerTop__openingHoursParagraph">Sobota: 10 - do ostatniego klienta</p>
+          <p class="footerTop__openingHoursParagraph">Niedziela: 10 - do ostatniego klienta</p>
         </div>
         <div class="footerTop__contact">
           <p class="footerTop__mail">E-mail: <a class="fontColor"
@@ -292,8 +308,8 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="footerBottom__mail">E-mail:<a class="fontColor"
-            href="mailto:marcin.malinowski@krainagier.pl">marcin.malinowski@krainagier.pl</a></p>
+        <p class="footerBottom__mail">E-mail:<a class="fontColor" href="mailto:marcin.malinowski@krainagier.pl">
+            marcin.malinowski@krainagier.pl</a></p>
         <p class="footerBottom__phoneNumber">Tel 1: <a class="fontColor" href="tel:557880458">557 880 458</a> (biuro)
         </p>
         <p class="footerBottom__phoneNumber">Rezerwacje: <a class="fontColor" href="tel:557880459">557 880 459</a></p>

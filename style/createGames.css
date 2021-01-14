@@ -1,6 +1,5 @@
 .createdGames {
     position: relative;
-    background-image: url(/image/hammer-28636.svg);
 }
 
 .createdGames::after {
@@ -10,7 +9,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: #fff;
+}
+
+.createdGames__title {
+    color: chocolate;
 }
 
 .createdGames__title::after {
@@ -21,25 +24,26 @@
     transform: translateX(-50%);
     width: 50%;
     height: 2px;
-    background-color: #fff;
+    background-color: chocolate;
 }
 
 .createdGames__artcile {
     width: 80%;
+    color: #000;
     margin: auto;
     position: relative;
     z-index: 1;
-    padding: 80px 0px 200px 0px;
+    padding: 40px 0px 100px 0px;
 }
 
 .createdGames__paragraph {
-    color: #fff;
-    font-size: 1.2rem;
+    color: #000;
+    font-size: 1.1rem;
 }
 
 .createdGames__paragraph-link {
     font-weight: bold;
-    color: #fff;
+    color:  #000;
     text-decoration: underline;
     cursor: pointer;
 }
