@@ -77,13 +77,13 @@
     position: relative;
 }
 
-.workshops__image--Krzysztof {
+.workshops__image--Krystian {
     width: 15vw;
 }
 
-.workshops__image--Kamil::after,
-.workshops__image--Krzysztof::after {
-    content: "Kamil Dragun";
+.workshops__image--Karol::after,
+.workshops__image--Krystian::after {
+    content: "Karol Krung";
     position: absolute;
     z-index: 1;
     bottom: -10px;
@@ -91,8 +91,8 @@
     color: #fff;
 }
 
-.workshops__image--Krzysztof::after {
-    content: "Krzysztof Bober";
+.workshops__image--Krystian::after {
+    content: "Krystian Farg";
 }
 
 @media (max-width: 850px) {
@@ -112,7 +112,7 @@
         height: 22vw;
     }
 
-    .workshops__image--Krzysztof {
+    .workshops__image--Krystian {
         width: 20vw;
     }
 }
@@ -129,17 +129,12 @@
         height: 52vw;
     }
 
-    .workshops__image--Krzysztof {
+    .workshops__image--Krystian {
         width: 50vw;
     }
 
-    .workshops__image--Kamil::after,
-    .workshops__image--Krzysztof::after {
-        content: "Kamil Dragun";
-        position: absolute;
-        z-index: 1;
+    .workshops__image--Karol::after,
+    .workshops__image--Krystian::after {
         bottom: 0px;
-        left: 0;
-        color: #fff;
     }
 }
